@@ -1,6 +1,6 @@
 # Use tools that automatically detect vulnerable dependencies
 
-<br/><br/>
+
 
 ### One Paragraph Explainer
 
@@ -11,7 +11,7 @@ The following tools automatically check for known security vulnerabilities in yo
 - [npm audit](https://docs.npmjs.com/cli/audit) - npm audit
 - [snyk](https://snyk.io/) - Continuously find & fix vulnerabilities in your dependencies
 
-<br/><br/>
+
 
 ### What Other Bloggers Say
 

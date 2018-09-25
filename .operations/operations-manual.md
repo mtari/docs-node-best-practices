@@ -3,7 +3,7 @@ Building a community and knowledge by efficiently handling issues
 
 ## Handling issues and PR
 
-<br/>
+
 In a nutshell, every issue and PR should get tagged by one of our core team and routed to the person who specializes in the related topic. This person then, will warmly welcome and kick the discussion shortly (hopefully within 48 hours). The goal of each issue/PR is to learn new thing that might improve our repo and try joining the opener to our forces.
 
 There is no specific person on call who assigns inquiries rather we count on our core team to visit almost everyday and assign issues/PR - this way, the workflow is not depend upon any specific person rather on our entire team.
@@ -12,7 +12,7 @@ Any new content should conform to our [writing guidelines](https://github.com/i0
 
 ## Monthly maintenance
 
-<br/>
+
 Each month, a maintainer on call will open an issue for maintenance work and record within all the actions to perform by the end of the month (e.g. assign flower to a contributor). On the end of the corresponding month, the maintainer will run the following checklist
 
  ---
@@ -53,7 +53,7 @@ Each month, a maintainer on call will open an issue for maintenance work and rec
 | 09/2019 | Yoni               |
 
 
-<br/>
+
 
 ## Routing by areas of expertise
 

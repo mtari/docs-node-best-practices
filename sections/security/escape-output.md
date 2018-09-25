@@ -32,7 +32,7 @@ HTML and other web languages mix content with executable code - a single HTML pa
 
 ```
 
-<br/><br/>
+
 
 ### Blog Quote: "When we don’t want the characters to be interpreted"
 
@@ -46,7 +46,7 @@ But, suppose I want to render the tags in the browser and avoid their interpreta
 &lt;strong&gt;This is bold text.&lt;/strong&gt;
 
 
-<br/><br/>
+
 
 ### Blog Quote: "OWASP recommends using a security-focused encoding library"
 
@@ -54,7 +54,7 @@ From the blog OWASP [XSS (Cross Site Scripting) Prevention Cheat Sheet](https://
 > "Writing these encoders is not tremendously difficult, but there are quite a few hidden pitfalls. For example, you might be tempted to use some of the escaping shortcuts like \" in JavaScript. However, these values are dangerous and may be misinterpreted by the nested parsers in the browser. You might also forget to escape the escape character, which attackers can use to neutralize your attempts to be safe. **OWASP recommends using a security-focused encoding library to make sure these rules are properly implemented**."
 
 
-<br/><br/>
+
 
 ### Blog Quote: "You MUST use the escape syntax for the part of the HTML"
 

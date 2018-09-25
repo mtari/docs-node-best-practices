@@ -1,6 +1,6 @@
 # Monitoring!
 
-<br/><br/>
+
 
 ### One Paragraph Explainer
 
@@ -8,25 +8,25 @@ At the very basic level, monitoring means you can *easily* identify when bad thi
 
 Achieving the advanced features demands lengthy setup or buying a commercial product such as Datadog, NewRelic and alike. Unfortunately, achieving even the basics is not a walk in the park as some metrics are hardware-related (CPU) and others live within the node process (internal errors) thus all the straightforward tools require some additional setup. For example, cloud vendor monitoring solutions (e.g. [AWS CloudWatch](https://aws.amazon.com/cloudwatch/), [Google StackDriver](https://cloud.google.com/stackdriver/)) will tell you immediately about the hardware metrics but not about the internal app behavior. On the other end, Log-based solutions such as ElasticSearch lack the hardware view by default. The solution is to augment your choice with missing metrics, for example, a popular choice is sending application logs to [Elastic stack](https://www.elastic.co/products) and configure some additional agent (e.g. [Beat](https://www.elastic.co/products)) to share hardware-related information to get the full picture.
 
-<br/><br/>
+
 
 ### Monitoring example: AWS cloudwatch default dashboard. Hard to extract in-app metrics
 
 ![AWS cloudwatch default dashboard. Hard to extract in-app metrics](/assets/images/monitoring1.png)
 
-<br/><br/>
+
 
 ### Monitoring example: StackDriver default dashboard. Hard to extract in-app metrics
 
 ![StackDriver default dashboard. Hard to extract in-app metrics](/assets/images/monitoring2.jpg)
 
-<br/><br/>
+
 
 ### Monitoring example: Grafana as the UI layer that visualizes raw data
 
 ![Grafana as the UI layer that visualizes raw data](/assets/images/monitoring3.png)
 
-<br/><br/>
+
 
 ### What Other Bloggers Say
 

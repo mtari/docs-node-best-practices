@@ -22,4 +22,4 @@ app.use(function(err, req, res, next) {
 
 ### Additional resources
 
-🔗 [Express.js error handling documentation](https://expressjs.com/en/guide/error-handling.html)
+[Express.js error handling documentation](https://expressjs.com/en/guide/error-handling.html)

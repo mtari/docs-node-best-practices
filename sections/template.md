@@ -1,12 +1,12 @@
 # Title here
 
-<br/><br/>
+
 
 ### One Paragraph Explainer
 
 Text
 
-<br/><br/>
+
 
 ### Code Example – explanation
 
@@ -14,7 +14,7 @@ Text
 code here
 ```
 
-<br/><br/>
+
 
 ### Code Example – another
 
@@ -22,7 +22,7 @@ code here
 code here
 ```
 
-<br/><br/>
+
 
 ### Blog Quote: "Title"
 
@@ -30,7 +30,7 @@ code here
 
  > …text here
 
-<br/><br/>
+
 
  ### Example: Complex methods analysis with CodeClimate (commercial)
 
@@ -45,4 +45,4 @@ code here
 ![alt text](https://github.com/i0natan/nodebestpractices/blob/master/assets/images/codeanalysis-sonarqube-dashboard.PNG "Code analysis history")
 
 
-<br/><br/>
+

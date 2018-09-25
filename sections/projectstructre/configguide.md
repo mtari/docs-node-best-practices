@@ -1,6 +1,6 @@
 # Use environment aware, secure and hierarchical config
 
-<br/><br/>
+
 
 ### One Paragraph Explainer
 
@@ -16,11 +16,11 @@ When dealing with configuration data, many things can just annoy and slow down:
 
 Some configuration libraries can provide most of these features for free, have a look at npm libraries like [rc](https://www.npmjs.com/package/rc), [nconf](https://www.npmjs.com/package/nconf) and [config](https://www.npmjs.com/package/config) which tick many of these requirements.
 
-<br/><br/>
+
 
 ### Code Example – hierarchical config helps to find entries and maintain huge config files
 
-```json
+```
 {
   // Customer module configs 
   "Customer": {
@@ -38,4 +38,4 @@ Some configuration libraries can provide most of these features for free, have a
 }
 ```
 
-<br/><br/>
+

@@ -1,6 +1,6 @@
 # Get your frontend assets out of Node
 
-<br/><br/>
+
 
 ### One Paragraph Explainer
 
@@ -12,7 +12,7 @@ Your optimal solution might wear one of the following forms:
 
 2. Cloud storage – your static files will NOT be part of your Node app content, they will be uploaded to services like AWS S3, Azure BlobStorage, or other similar services that were born for this mission. Using this approach, your Node app is not responsible deploying the static files neither to serve them, hence a complete decoupling is drawn between Node and the Frontend which is anyway handled by different teams.
 
-<br/><br/>
+
 
 ### Configuration example: typical nginx configuration for serving static files
 
@@ -34,7 +34,7 @@ expires max;
 }
 ```
 
-<br/><br/>
+
 
 ### What Other Bloggers Say
 
@@ -42,4 +42,4 @@ From the blog [StrongLoop](https://strongloop.com/strongblog/best-practices-for-
 
 >…In development, you can use [res.sendFile()](http://expressjs.com/4x/api.html#res.sendFile) to serve static files. But don’t do this in production, because this function has to read from the file system for every file request, so it will encounter significant latency and affect the overall performance of the app. Note that res.sendFile() is not implemented with the sendfile system call, which would make it far more efficient. Instead, use serve-static middleware (or something equivalent), that is optimized for serving files for Express apps. An even better option is to use a reverse proxy to serve static files; see Use a reverse proxy for more information…
 
-<br/><br/>
+

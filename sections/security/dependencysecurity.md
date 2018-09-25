@@ -20,7 +20,7 @@ Running `npm audit` will produce a report of security vulnerabilities with the a
 
 ![npm audit example](/assets/images/npm-audit.png)
 
-🔗 [Read on: NPM blog](https://docs.npmjs.com/getting-started/running-a-security-audit)
+[Read on: NPM blog](https://docs.npmjs.com/getting-started/running-a-security-audit)
 
 ### Snyk
 
@@ -31,9 +31,9 @@ Snyk's feature rich website also allows for ad-hoc assessment of dependencies wh
 An example of the output of the Synk GitHub integration automatically created pull request:
 ![synk GitHub example](/assets/images/snyk.png)
 
-🔗 [Read on: Snyk website](https://snyk.io/)
+[Read on: Snyk website](https://snyk.io/)
 
-🔗 [Read on: Synk online tool to check npm packages and GitHub modules](https://snyk.io/test)
+[Read on: Synk online tool to check npm packages and GitHub modules](https://snyk.io/test)
 
 ### Greenkeeper
 
@@ -44,10 +44,10 @@ Greenkeeper watches the npm dependencies specified in a repository's `package.js
 An example of the output of the Greenkeeper GitHub integration automatically created pull request:
 
 ![synk github example](/assets/images/greenkeeper.png)
-🔗 [Read on: Greenkeeper website](https://greenkeeper.io/)
+[Read on: Greenkeeper website](https://greenkeeper.io/)
 
 ### Additional resources
 
-🔗 [Rising Stack Blog: Node.js dependency risks](https://blog.risingstack.com/controlling-node-js-security-risk-npm-dependencies/)
+[Rising Stack Blog: Node.js dependency risks](https://blog.risingstack.com/controlling-node-js-security-risk-npm-dependencies/)
 
-🔗 [NodeSource Blog: Improving npm security](https://nodesource.com/blog/how-to-reduce-risk-and-improve-security-around-npm)
+[NodeSource Blog: Improving npm security](https://nodesource.com/blog/how-to-reduce-risk-and-improve-security-around-npm)

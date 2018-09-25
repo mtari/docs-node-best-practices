@@ -1,18 +1,18 @@
 # Utilize all CPU cores
 
-<br/><br/>
+
 
 ### One Paragraph Explainer
 
 It might not come as a surprise that in its basic form, Node runs over a single thread=single process=single CPU. Paying for beefy hardware with 4 or 8 CPU and utilizing only one sounds crazy, right? The quickest solution which fits medium sized apps is using Node’s Cluster module which in 10 lines of code spawns a process for each logical core and route requests between the processes in a round-robin style. Even better, use PM2 which sugarcoats the clustering module with a simple interface and cool monitoring UI. While this solution works well for traditional applications, it might fall short for applications that require top-notch performance and robust DevOps flow. For those advanced use cases, consider replicating the NODE process using custom deployment script and balancing using a specialized tool such as nginx or use a container engine such as AWS ECS or Kubernetees that have advanced features for deployment and replication of processes.
 
-<br/><br/>
+
 
 ### Comparison: Balancing using Node’s cluster vs nginx
 
 ![Balancing using Node’s cluster vs nginx](/assets/images/utilizecpucores1.png "Balancing using Node’s cluster vs nginx")
 
-<br/><br/>
+
 
 ### What Other Bloggers Say
 

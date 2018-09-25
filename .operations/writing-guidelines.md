@@ -3,14 +3,14 @@ How we enhance the reading and learning experience for our visitors
 
 ## 1. Simple is better than better
 
-<br/>
+
 Making it easy to read and absorb knowledge is our mission, we curate content. As such we focus on transforming complex and exhausting topics into a simplified list, trade overloaded information with shortened and less-accurate details, avoid ‘flammable’ and controversial topics and escape subjective ideas in favor of generally accepted practices
 
-<br/>
+
 
 ## 2. Be evidence-based and reliable
 
-<br/>
+
 Our readers should have great confidence that the content they skim through is reliable. We achieve this by including evidence like references, data and other resources available to this topic. Practically, strive to include quotes from reliable sources, show benchmarks, related design patterns or any scientific measure to prove your claims
 
 

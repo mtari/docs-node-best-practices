@@ -1,12 +1,12 @@
 # Delegate anything possible (e.g. static content, gzip) to a reverse proxy
 
-<br/><br/>
+
 
 ### One Paragraph Explainer
 
 It’s very tempting to cargo-cult Express and use its rich middleware offering for networking related tasks like serving static files, gzip encoding, throttling requests, SSL termination, etc. This is a performance kill due to its single threaded model which will keep the CPU busy for long periods (Remember, Node’s execution model is optimized for short tasks or async IO related tasks). A better approach is to use a tool that expertise in networking tasks – the most popular are nginx and HAproxy which are also used by the biggest cloud vendors to lighten the incoming load on node.js processes.
 
-<br/><br/>
+
 
 ### Nginx Config Example – Using nginx to compress server responses
 
@@ -39,7 +39,7 @@ server {
 }
 ```
 
-<br/><br/>
+
 
 ### What Other Bloggers Say
 

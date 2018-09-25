@@ -1,26 +1,12 @@
 # Using security-related headers to secure your application against common attacks
 
-<br/><br/>
+
 
 
 ### One Paragraph Explainer
 
 There are security-related headers used to secure your application further. The most important headers are listed below. You can also visit the sites linked at the bottom of this page to get more information on this topic. You can easily set these headers using the [Helmet](https://www.npmjs.com/package/helmet) module for express ([Helmet for koa](https://www.npmjs.com/package/koa-helmet)).
 
-<br/><br/>
-
-### Table of Contents
-- [HTTP Strict Transport Security (HSTS)](#http-strict-transport-security-hsts)
-- [Public Key Pinning for HTTP (HPKP)](#public-key-pinning-for-http-hpkp)
-- [X-Frame-Options](#x-frame-options)
-- [X-XSS-Protection](#x-xss-protection)
-- [X-Content-Type-Options](#x-content-type-options)
-- [Referrer-Policy](#referrer-policy)
-- [Expect-CT](#expect-ct)
-- [Content-Security-Policy](#content-security-policy)
-- [Additional Resource](#additional-resources)
-
-<br/><br/>
 
 ### HTTP Strict Transport Security (HSTS)
 
@@ -33,11 +19,11 @@ Header Example - HSTS Policy enabled for one week, include subdomains
 Strict-Transport-Security: max-age=2592000; includeSubDomains
 ```
 
-🔗 [Read on OWASP Secure Headers Project](https://www.owasp.org/index.php/OWASP_Secure_Headers_Project#hsts)
+[Read on OWASP Secure Headers Project](https://www.owasp.org/index.php/OWASP_Secure_Headers_Project#hsts)
 
-🔗 [Read on MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security)
+[Read on MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security)
 
-<br/><br/>
+
 
 ### Public Key Pinning for HTTP (HPKP)
 
@@ -54,11 +40,11 @@ Header Example - HPKP Policy enabled for one week, include subdomains , report f
 Public-Key-Pins: pin-sha256="d6qzRu9zOECb90Uez27xWltNsj0e1Md7GkYYkVoZWmM="; pin-sha256="E9CZ9INDbd+2eRQozYqqbQ2yXLVKB9+xcprMF+44U1g="; report-uri="http://example.com/pkp-report"; max-age=2592000; includeSubDomains
 ```
 
-🔗 [Read on OWASP Secure Headers Project](https://www.owasp.org/index.php/OWASP_Secure_Headers_Project#hpkp)
+[Read on OWASP Secure Headers Project](https://www.owasp.org/index.php/OWASP_Secure_Headers_Project#hpkp)
 
-🔗 [Read on MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Public_Key_Pinning)
+[Read on MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Public_Key_Pinning)
 
-<br/><br/>
+
 
 ### X-Frame-Options
 
@@ -71,11 +57,11 @@ Header Example - Deny embedding of your application
 X-Frame-Options: deny
 ```
 
-🔗 [Read on OWASP Secure Headers Project](https://www.owasp.org/index.php/OWASP_Secure_Headers_Project#xfo)
+[Read on OWASP Secure Headers Project](https://www.owasp.org/index.php/OWASP_Secure_Headers_Project#xfo)
 
-🔗 [Read on MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options)
+[Read on MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options)
 
-<br/><br/>
+
 
 ### X-XSS-Protection
 
@@ -88,11 +74,11 @@ Header Example - Enable XSS Protection and report violations to example URL
 X-XSS-Protection: 1; report=http://example.com/xss-report
 ```
 
-🔗 [Read on OWASP Secure Headers Project](https://www.owasp.org/index.php/OWASP_Secure_Headers_Project#xxxsp)
+[Read on OWASP Secure Headers Project](https://www.owasp.org/index.php/OWASP_Secure_Headers_Project#xxxsp)
 
-🔗 [Read on OWASP Secure Headers Project](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection)
+[Read on OWASP Secure Headers Project](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection)
 
-<br/><br/>
+
 
 ### X-Content-Type-Options
 
@@ -103,12 +89,12 @@ Header Example - Disallow Content sniffing
 X-Content-Type-Options: nosniff
 ```
 
-🔗 [Read on OWASP Secure Headers Project](https://www.owasp.org/index.php/OWASP_Secure_Headers_Project#xcto)
+[Read on OWASP Secure Headers Project](https://www.owasp.org/index.php/OWASP_Secure_Headers_Project#xcto)
 
-🔗 [Read on MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options)
+[Read on MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options)
 
 
-<br/><br/>
+
 
 ### Referrer-Policy
 
@@ -121,12 +107,12 @@ Header Example - Remove the `Referer` header completely
 Referrer-Policy: no-referrer
 ```
 
-🔗 [Read on OWASP Secure Headers Project](https://www.owasp.org/index.php/OWASP_Secure_Headers_Project#rp)
+[Read on OWASP Secure Headers Project](https://www.owasp.org/index.php/OWASP_Secure_Headers_Project#rp)
 
-🔗 [Read on MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy)
+[Read on MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy)
 
 
-<br/><br/>
+
 
 ### Expect-CT
 
@@ -139,10 +125,10 @@ Header Example - Enforce Certificate Transparency for a week and report to examp
 Expect-CT: max-age=2592000, enforce, report-uri="https://example.com/report-cert-transparency"
 ```
 
-🔗 [Read on OWASP Secure Headers Project](https://www.owasp.org/index.php/OWASP_Secure_Headers_Project#ect)
+[Read on OWASP Secure Headers Project](https://www.owasp.org/index.php/OWASP_Secure_Headers_Project#ect)
 
 
-<br/><br/>
+
 
 ### Content-Security-Policy
 
@@ -155,18 +141,18 @@ Content-Security-Policy: script-src 'self'
 
 There are many policies enabled with Content-Security-Policy that can be found on the sites linked below.
 
-🔗 [Read on OWASP Secure Headers Project](https://www.owasp.org/index.php/OWASP_Secure_Headers_Project#csp)
+[Read on OWASP Secure Headers Project](https://www.owasp.org/index.php/OWASP_Secure_Headers_Project#csp)
 
-🔗 [Read on MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy)
+[Read on MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy)
 
 
-<br/><br/>
+
 
 ### Additional resources
 
-🔗 [OWASP Secure Headers Project](https://www.owasp.org/index.php/OWASP_Secure_Headers_Project#tab=Headers)
+[OWASP Secure Headers Project](https://www.owasp.org/index.php/OWASP_Secure_Headers_Project#tab=Headers)
 
-🔗 [Node.js Security Checklist (RisingStack)](https://blog.risingstack.com/node-js-security-checklist/)
+[Node.js Security Checklist (RisingStack)](https://blog.risingstack.com/node-js-security-checklist/)
 
 
-<br/><br/>
+

@@ -33,7 +33,7 @@ app.post('/json', (req, res) => {
 app.listen(3000, () => console.log('Example app listening on port 3000!'));
 ```
 
-🔗 [**Express docs for express.json()**](http://expressjs.com/en/4x/api.html#express.json)
+[**Express docs for express.json()**](http://expressjs.com/en/4x/api.html#express.json)
 
 ### Example configuration for `nginx`
 
@@ -57,4 +57,4 @@ location /upload {
 }
 ```
 
-🔗 [**Nginx docs for client_max_body_size**](http://nginx.org/en/docs/http/ngx_http_core_module.html#client_max_body_size)
+[**Nginx docs for client_max_body_size**](http://nginx.org/en/docs/http/ngx_http_core_module.html#client_max_body_size)

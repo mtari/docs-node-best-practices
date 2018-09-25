@@ -1,6 +1,6 @@
 # Using HTTPS to encrypt the client-server connection
 
-<br/><br/>
+
 
 
 ### One Paragraph Explainer
@@ -9,7 +9,7 @@ Using services like the [Let'sEncrypt](https://letsencrypt.org/) certificate aut
 
 You can also configure ssl/tls on your reverse proxy pointing to your application for example using [nginx](http://nginx.org/en/docs/http/configuring_https_servers.html) or HAProxy.
 
-<br/><br/>
+
 
 ### Code Example – Enabling SSL/TLS using the Express framework
 
@@ -25,4 +25,4 @@ const options = {
 https.createServer(options, app).listen(443);
 ```
 
-<br/><br/>
+

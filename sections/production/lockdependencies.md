@@ -1,6 +1,6 @@
 # Lock dependencies
 
-<br/><br/>
+
 
 ### One Paragraph Explainer
 
@@ -8,7 +8,7 @@ Your code depends on many external packages, let’s say it ‘requires’ and u
 
 * **Update:** as of npm 5, dependencies are locked automatically using .shrinkwrap. Yarn, an emerging package manager, also locks down dependencies by default.
 
-<br/><br/>
+
 
 ### Code example: .npmrc file that instructs npm to use exact versions
 
@@ -17,7 +17,7 @@ Your code depends on many external packages, let’s say it ‘requires’ and u
 save-exact:true
 ```
 
-<br/><br/>
+
 
 ### Code example: shrinkwrap.json file that distills the exact dependency tree
 
@@ -37,7 +37,7 @@ save-exact:true
 }
 ```
 
-<br/><br/>
+
 
 ### Code example: npm 5 dependencies lock file – package.json
 

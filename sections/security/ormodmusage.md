@@ -38,11 +38,11 @@ SELECT username, firstname, lastname FROM users WHERE id = 'evil'input';
 
 ### Additional resources
 
-🔗 [OWASP SQL Injection](https://www.owasp.org/index.php/SQL_Injection)
+[OWASP SQL Injection](https://www.owasp.org/index.php/SQL_Injection)
 
-🔗 [OWASP SQL Injection Prevention Cheat Sheet](https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet)
+[OWASP SQL Injection Prevention Cheat Sheet](https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet)
 
-🔗 [Testing for NoSQL Injection](https://www.owasp.org/index.php/Testing_for_NoSQL_injection)
+[Testing for NoSQL Injection](https://www.owasp.org/index.php/Testing_for_NoSQL_injection)
 
 ### What other bloggers say
 

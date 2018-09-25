@@ -11,7 +11,7 @@
 # Welcome to Node.js Best Practices
 
 Welcome to the biggest compilation of Node.js best practices, based on our check it's also the largest collection on any programming language (more than 53 items). The content below was gathered from all top ranked books and posts and is updated constantly - if you read here you can rest assure that no significant tip slipped away. Feel at home - we love to discuss via PRs, issues or Gitter.
-<br/><br/>
+
 ## Table of Contents
 * [Project Setup Practices (18)](#project-setup-practices)
 * [Code Style Practices (11) ](#code-style-practices)
@@ -20,7 +20,7 @@ Welcome to the biggest compilation of Node.js best practices, based on our check
 * [Testing Practices (9) ](#deployment-practices)
 * [Security Practices (8) ](#security-practices)
 
-<br/><br/>
+
 # `Project Setup Practices`
 
 ## ✔ 1. Structure your solution by feature ('microservices')
@@ -29,7 +29,7 @@ Welcome to the biggest compilation of Node.js best practices, based on our check
 
 **Otherwise:** Developing a new feature with a change to few objects demands to evaluate how this changes might affect dozends of dependants and ach deployment becomes a fear.
 
-<br/><br/>
+
 
 ## ✔ 2. Layer your app, keep Express within its boundaries
 
@@ -40,7 +40,7 @@ Welcome to the biggest compilation of Node.js best practices, based on our check
 🔗 [**Read More: Structure by feature*](/sections/errorhandling/asyncawait.md)
 
 
-<br/><br/>
+
 
 ## ✔ 3. Configure ESLint with node-specific plugins
 
@@ -51,11 +51,11 @@ Welcome to the biggest compilation of Node.js best practices, based on our check
 🔗 [**Read More: Structure by feature*](/sections/errorhandling/asyncawait.md)
 
 
-<br/><br/><br/>
+
 # `Code Style Practices`
 
 
-<br/><br/><br/>
+
 # `Error Handling Practices`
 <p align="right"><a href="#table-of-contents">⬆ Return to top</a></p>
 
@@ -69,14 +69,14 @@ Welcome to the biggest compilation of Node.js best practices, based on our check
 
 
 
-<br/><br/><br/>
+
 # `Going To Production Practices`
 
 
-<br/><br/><br/>
+
 # `Deployment Practices`
 
 
-<br/><br/><br/>
+
 # `Security Practices`
 

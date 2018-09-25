@@ -22,7 +22,7 @@ Welcome to the biggest compilation of Node.js best practices. The content below 
 * [Security Practices (8)](#security-practices)
 
 
-<br/><br/>
+
 # `Project Setup Practices`
 
 ## ✔ 1. Structure your solution by feature ('microservices')
@@ -33,7 +33,7 @@ Welcome to the biggest compilation of Node.js best practices. The content below 
 
 🔗 [**Read More: Structure by feature*](/sections/errorhandling/asyncawait.md)
 
-<br/><br/>
+
 
 ## ✔ 2. Layer your app, keep Express within its boundaries
 
@@ -43,7 +43,7 @@ Welcome to the biggest compilation of Node.js best practices. The content below 
 
 🔗 [**Read More: Structure by feature*](/sections/errorhandling/asyncawait.md)
 
-<br/><br/>
+
 
 ## ✔ 3. Configure ESLint with node-specific plugins
 
@@ -54,12 +54,12 @@ Welcome to the biggest compilation of Node.js best practices. The content below 
 🔗 [**Read More: Structure by feature*](/sections/errorhandling/asyncawait.md)
 
 
-<br/><br/><br/>
+
 
 # `Code Style Practices`
 
 
-<br/><br/><br/>
+
 
 # `Error Handling Practices`
 
@@ -73,14 +73,14 @@ Welcome to the biggest compilation of Node.js best practices. The content below 
 
 🔗 [**Use async-await for async error handling**](/sections/errorhandling/asyncawait.md)
 
-<br/><br/><br/>
+
 
 # `Going To Production Practices`
 
-<br/><br/><br/>
+
 
 # `Deployment Practices`
 
-<br/><br/><br/>
+
 
 # `Security Practices`

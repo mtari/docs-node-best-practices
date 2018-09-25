@@ -9,7 +9,7 @@ Some [OWASP examples](https://www.owasp.org/index.php/Regular_expression_Denial_
 * (a|aa)+
 * ([a-zA-Z]+)*
 
-<br/><br/>
+
 
 ### Code Example – Enabling SSL/TLS using the Express framework
 
@@ -25,7 +25,7 @@ var validator = require('validator');
 console.log(validator.isEmail('liran.tal@gmail.com'));
 ```
 
-<br/><br/>
+
 
 ### Book Quote: "A vulnerable Regular Expression is known as one which applies repetition"
 

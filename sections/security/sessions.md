@@ -1,6 +1,6 @@
 # Modify the default session middleware settings
 
-<br/><br/>
+
 
 
 ### One Paragraph Explainer
@@ -11,7 +11,7 @@ The most common setting left to default is the session `name` - in `express-sess
 
 Also in `express-session`, the option `cookie.secure` is set to false as the default value. Changing this to true will restrict transport of the cookie to https only which provides safety from man-in-the-middle type attacks
 
-<br/><br/>
+
 
 
 ### Code example: Setting secure cookie settings
@@ -29,7 +29,7 @@ app.use(session({
 }));
 ```
 
-<br/><br/>
+
 
 
 ### What Other Bloggers Say
@@ -37,4 +37,4 @@ app.use(session({
 From the [NodeSource blog](http://nodesource.com/blog/nine-security-tips-to-keep-express-from-getting-pwned/): 
 > ...Express has default cookie settings that aren’t highly secure. They can be manually tightened to enhance security - for both an application and its user.*
 
-<br/><br/>
+

@@ -20,7 +20,7 @@ Welcome to the biggest compilation of Node.js best practices, based on our check
 * [Testing Practices (9) ](#deployment-practices)
 * [Security Practices (8) ](#security-practices)
 
-<br/><br/>
+
 # `Project Setup Practices`
 
 ## ![](assets/images/checkbox-sm.png) 1. Structure your solution by feature ('microservices')
@@ -31,7 +31,7 @@ Welcome to the biggest compilation of Node.js best practices, based on our check
 
 🔗 [**Read More: Structure by feature*](/sections/errorhandling/asyncawait.md)
 
-<br/><br/>
+
 
 ## ![](assets/images/checkbox-sm.png) 2. Layer your app, keep Express within its boundaries
 
@@ -41,7 +41,7 @@ Welcome to the biggest compilation of Node.js best practices, based on our check
 
 🔗 [**Read More: Structure by feature*](/sections/errorhandling/asyncawait.md)
 
-<br/><br/>
+
 
 ## ![](assets/images/checkbox-sm.png) 3. Configure ESLint with node-specific plugins
 
@@ -53,11 +53,11 @@ Welcome to the biggest compilation of Node.js best practices, based on our check
 
 
 
-<br/><br/>
+
 
 ## Additional 15 bullets will appear here
 
-<br/><br/><br/>
+
 # `Code Style Practices`
 
 ## ![](assets/images/checkbox-sm.png) 1. Use async-await
@@ -68,7 +68,7 @@ Welcome to the biggest compilation of Node.js best practices, based on our check
 
 🔗 [**Read More: Structure by feature*](/sections/errorhandling/asyncawait.md)
 
-<br/><br/>
+
 
 ## ![](assets/images/checkbox-sm.png) 2. Break into small classes or objects
 
@@ -78,7 +78,7 @@ Welcome to the biggest compilation of Node.js best practices, based on our check
 
 🔗 [**Read More: Structure by feature*](/sections/errorhandling/asyncawait.md)
 
-<br/><br/><br/>
+
 # `Error Handling Practices`
 <p align="right"><a href="#table-of-contents">⬆ Return to top</a></p>
 
@@ -90,7 +90,7 @@ Welcome to the biggest compilation of Node.js best practices, based on our check
 
 🔗 [**Use async-await for async error handling**](/sections/errorhandling/asyncawait.md)
 
-<br/><br/>
+
 
 ## <img src="assets/images/checkbox-sm.png"> Use async-await for async error handling
 
@@ -102,14 +102,14 @@ Welcome to the biggest compilation of Node.js best practices, based on our check
 
 
 
-<br/><br/><br/>
+
 # `Going To Production Practices`
 
 
-<br/><br/><br/>
+
 # `Deployment Practices`
 
 
-<br/><br/><br/>
+
 # `Security Practices`
 

@@ -1,6 +1,6 @@
 # Make your app transparent using smart logs
 
-<br/><br/>
+
 
 ### One Paragraph Explainer
 
@@ -12,19 +12,19 @@ Since you print out log statements anyway and you're obviously in a need of some
 
 **3. smart visualization** – now the information is aggregated and searchable, one can be satisfied only with the power of easily searching the logs but this can go much further without coding or spending much effort. We can now show important operational metrics like error rate, average CPU throughout the day, how many new users opted-in in the last hour and any other metric that helps to govern and improve our app
 
-<br/><br/>
+
 
 ### Visualization Example: Kibana (part of the Elastic stack) facilitates advanced searching on log content
 
 ![Kibana facilitates advanced searching on log content](/assets/images/smartlogging1.png "Kibana facilitates advanced searching on log content")
 
-<br/><br/>
+
 
 ### Visualization Example: Kibana (part of the Elastic stack) visualizes data based on logs
 
 ![Kibana visualizes data based on logs](/assets/images/smartlogging2.jpg "Kibana visualizes data based on logs")
 
-<br/><br/>
+
 
 ### Blog Quote: Logger Requirements
 
@@ -35,6 +35,6 @@ From the blog [Strong Loop](https://strongloop.com/strongblog/compare-node-js-lo
 > 2. Logging format should be easily digestible by humans as well as machines.
 > 3. Allows for multiple configurable destination streams. For example, you might be writing trace logs to one file but when an error is encountered, write to the same file, then into error file and send an email at the same time…
 
-<br/><br/>
 
-<br/><br/>
+
+

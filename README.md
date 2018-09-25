@@ -4,14 +4,6 @@
 
 This is a fork of [https://github.com/i0natan/nodebestpractices](https://github.com/i0natan/nodebestpractices)
 
-# Welcome! 3 Things You Ought To Know First:
-
-**1. When you read here, you in fact read dozens of the best Node.js articles -** this is a summary and curation of the top-ranked content on Node.js best practices
-
-**2. It is the largest compilation, and it is growing every week -** currently, more than 50 best practices, style guides, and architectural tips are presented. New issues and PR are created every day to keep this live book updated. We'd love to see you contributing here, whether fixing some code mistake or suggesting brilliant new ideas. See our [milestones here](https://github.com/i0natan/nodebestpractices/milestones?direction=asc&sort=due_date&state=open)
-
-**3. Most bullets have additional info -** nearby most best practice bullets you'll find **🔗Read More** link that will present you with code examples, quotes from selected blogs and more info
-
 # 1. Project Structure Practices
 
 ## 1.1 Structure your solution by components
@@ -379,7 +371,7 @@ All statements above will return false if used with `===`
 
 ## 4.2 Detect code issues with a linter
 
-**TL;DR:** Use a code linter to check basic quality and detect anti-patterns early. Run it before any test and add it as a pre-commit git-hook to minimize the time needed to review and correct any issue. Also check [Section 3](https://github.com/i0natan/nodebestpractices#3-code-style-practices) on Code Style Practices
+**TL;DR:** Use a code linter to check basic quality and detect anti-patterns early. Run it before any test and add it as a pre-commit git-hook to minimize the time needed to review and correct any issue. Also check Section 3 on Code Style Practices
 
 **Otherwise:** You may let pass some anti-pattern and possible vulnerable code to your production environment.
 
@@ -731,7 +723,7 @@ All statements above will return false if used with `===`
 
 ## 6.10. Validate incoming JSON schemas
 
-[![alt text](https://img.shields.io/badge/%E2%9C%94%20OWASP%20Threats%20-%20A7: XSS%20-green.svg)](https://www.owasp.org/index.php/Top_10-2017_A7-Cross-Site_Scripting_(XSS))
+[![alt text](https://img.shields.io/badge/%E2%9C%94%20OWASP%20Threats%20-%20A7:XSS%20-green.svg)](https://www.owasp.org/index.php/Top_10-2017_A7-Cross-Site_Scripting_(XSS))
 [![alt text](https://img.shields.io/badge/%E2%9C%94%20OWASP%20Threats%20-%20A8:Insecured%20Deserialization%20-green.svg)](https://www.owasp.org/index.php/Top_10-2017_A8-Insecure_Deserialization)
 
 **TL;DR:** Validate the incoming requests' body payload and ensure it qualifies the expectations, fail fast if it doesn't. To avoid tedious validation coding within each route you may use lightweight JSON-based validation schemas such as [jsonschema](https://www.npmjs.com/package/jsonschema) or [joi](https://www.npmjs.com/package/joi)
